@@ -1,6 +1,6 @@
 # Toolbox
 
-This repo contains my configuration files for Bash and other CLI tools. It forms part of my larger macOS setup which consists of:
+This repo contains miscellaneous small CLI tools. It forms part of my larger macOS setup which consists of:
 
 - **[dawn](https://github.com/stringlytyped/dawn)**: a script that walks you through the process of setting up a newly-installed copy of macOS from scratch
 - **toolbox** (this repo): miscellaneous shell scripts that perform various functions (some of questionable utility)
