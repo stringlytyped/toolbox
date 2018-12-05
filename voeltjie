@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# Gets a random Afrikaans bird name and summary from Wikipedia.
+
+article_url=https://af.wikipedia.org/wiki/Alfabetiese_lys_van_Suid-Afrikaanse_vo%C3%ABls
+
+name=$( wget -q -O - $article_url | grep \<li\> | grep -Po '(?<=">).+?(?=<\/a> –)' | shuf -n 1 )
+
+echo "$name"
+echo 
+wiki -l af "$name"
+echo "(CMD + double click URL to open)"
