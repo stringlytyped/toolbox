@@ -18,4 +18,4 @@ You will need to install the following dependencies:
 
 ### voeltjie
 
-This is a silly bash script that fetches a random bird from the Afrikaans version of Wikipedia and displays its name, a short description and a link its Wikipedia article. To use, just run `./voeltjie`. It doesn't take any arguments.
+This is a silly bash script that fetches a random bird from the Afrikaans version of Wikipedia and displays its name, a short description and a link to its Wikipedia article. To use, just run `./voeltjie`. It doesn't take any arguments.
